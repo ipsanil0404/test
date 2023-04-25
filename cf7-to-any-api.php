@@ -57,7 +57,6 @@ function deactivate_cf7_to_any_api() {
 
 register_activation_hook( __FILE__, 'activate_cf7_to_any_api' );
 register_deactivation_hook( __FILE__, 'deactivate_cf7_to_any_api' );
-echo "hereeee";
 
 /**
  * The core plugin class that is used to define internationalization,
