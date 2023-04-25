@@ -58,6 +58,11 @@ function deactivate_cf7_to_any_api() {
 register_activation_hook( __FILE__, 'activate_cf7_to_any_api' );
 register_deactivation_hook( __FILE__, 'deactivate_cf7_to_any_api' );
 
+
+
+
+
+
 /**
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
