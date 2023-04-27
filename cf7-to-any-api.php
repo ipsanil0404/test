@@ -53,11 +53,11 @@ function activate_cf7_to_any_api() {
 function deactivate_cf7_to_any_api() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-cf7-to-any-api-deactivator.php';
 	Cf7_To_Any_Api_Deactivator::deactivate();
+
 }
 
 register_activation_hook( __FILE__, 'activate_cf7_to_any_api' );
 register_deactivation_hook( __FILE__, 'deactivate_cf7_to_any_api' );
-echo "hereeee";
 
 /**
  * The core plugin class that is used to define internationalization,
