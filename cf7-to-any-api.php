@@ -53,6 +53,7 @@ function activate_cf7_to_any_api() {
 function deactivate_cf7_to_any_api() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-cf7-to-any-api-deactivator.php';
 	Cf7_To_Any_Api_Deactivator::deactivate();
+	return $test;
 
 }
 
